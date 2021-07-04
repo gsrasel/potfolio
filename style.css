@@ -64,8 +64,27 @@ p {
   width: 40%;
   padding: 33px;
   box-shadow: -10px 12px 15px black;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 .font-big {
   font-size: 35px;
+}
+.experiance-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+#web-dev-experiance {
+  border-left: 8px solid;
+  border-image: linear-gradient(rgb(31, 25, 122), rgb(68, 179, 207));
+  border-image-slice: 1;
+}
+#web-dev-experiance-2 {
+  border-left: 8px solid;
+  border-image: linear-gradient(rgb(122, 25, 117), rgb(207, 68, 145));
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  margin: 3%;
 }
