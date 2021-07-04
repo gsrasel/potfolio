@@ -10,14 +10,27 @@ body {
 .top-banner {
   width: 100%;
   display: flex;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  margin: 15px;
+}
+h1 {
+  font-size: 35px;
+}
+.orange {
+  color: orange;
+  font-size: 35px;
 }
 .half-width {
   width: 50%;
-  padding: 15px 30px;
+  padding: 25px 40px;
   margin: 10px 20px;
 }
-.img1 .mod {
-  width: 80%;
+.mod {
+  width: 75%;
+  margin-left: 15px;
+  padding: 20px;
+  float: right;
 }
 .g-btn {
   text-decoration: none;
@@ -27,4 +40,22 @@ body {
   padding: 0px 25px;
   border-radius: 15px;
   padding-bottom: 4px;
+  margin-top: 8px;
+}
+p {
+  font-size: 25px;
+}
+.second-banner {
+  width: 100%;
+  display: flex;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  margin: 15px;
+  background-position: right;
+}
+.mod2 {
+  width: 75%;
+  margin-left: 15px;
+  padding: 20px;
+  float: left;
 }
